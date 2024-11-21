@@ -2,6 +2,4 @@ MatchingTranslations:
   enabled: false
 TemplateLength:
   enabled: false
-          uses: shopify/lighthouse-ci-action@v1
-        with:
-          store: ${{ secrets.SHOP_STORE }}
+
