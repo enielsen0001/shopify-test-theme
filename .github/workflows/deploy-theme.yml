@@ -25,4 +25,4 @@ jobs:
           SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.SHOPIFY_CLI_THEME_TOKEN }}
           SHOPIFY_CLI_TTY: 0
           # prod theme id
-        run: shopify theme push --path ../..shopify-test-theme --theme 133525209223
+        run: shopify theme push --path ../.. --theme 133525209223
